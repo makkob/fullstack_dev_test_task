@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#0E0E0E">
+    <meta name="template-color" content="#0E0E0E">
+    <link rel="manifest" href="manifest.json" crossorigin>
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="description" content="Index page">
+    <meta name="keywords" content="index, page">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Fullstack Test Task Maksym</title>
+  </head>
+
+  <body><!-- Preloader Start-->
+    <div id="preloader-active">
+      <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+          <div class="text-center">
+            <div class="loader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header sticky-bar">
+      <div class="container">
+        <div class="main-header">
+          <div class="header-left">
+            <div class="header-logo"><a class="d-flex" href="index.html"><img alt="Logo" src="assets/imgs/template/logo.svg"></a></div>
+            <div class="header-nav">
+              <nav class="nav-main-menu d-none d-xl-block">
+                <ul class="main-menu">
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="burger-icon burger-icon-white"><span class="burger-icon-top"></span><span class="burger-icon-mid"></span><span class="burger-icon-bottom"></span></div>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="block-signin"><a class="btn btn-default hover-up icon-arrow-right" href="page-signup.html">Get Started</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="card-grid-style-6">
+      <div class="banner-hero">
+        <div class="banner-2">
+          <div class="container">
+            <div class="section-hero-block-width">
+              <h2>We are <span style="color: #006D77">awesome <!--$color-green-900--></span></h2>
+              <h2> <span style="color: #006D77">team <!--$color-green-900--></span><span>for your </span></h2>
+              <h2 class="mb-50">business dream</h2>
+              <p class="text-muted font-lg mb-30"> Integrated workflow designed for product teams. We create world-class development and branding</p><a class="btn btn-default mr-25 hover-up icon-arrow-right" href="page-signup.html">Get Started</a><a class="btn-black icon-arrow-right" href="page-signup.html">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div><img class="section-hero-image" src="https://www.seekpng.com/png/full/254-2541352_vr-girl-png.png">
+    </div>
+    <style>
+      .section-hero-block-width {
+        max-width: 600px
+      }
+
+      @media screen and (max-width: 768px) {
+
+        .section-hero-image {
+          display: none
+        }
+      }
+
+      @media screen and (min-width: 769px) {
+        .section-hero-image {
+          position: absolute;
+          bottom: 0;
+          left: 70vw;
+          transform: translateX(-50%) scaleX(-1);
+        }
+      }
+    </style>
+    <div class="container" style="true" color="rgb(242,244,247)">
+      <div class="centered-content">
+        <h3 class="mt-50 mb-25">Built exclusively for you</h3>
+        <p class="text-muted font-xl mb-50">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla</p>
+      </div>
+      <div class="grid-container">
+        <div class="product-item-1">
+          <div class="product-image"><i class="fa-solid fa-shapes fa-4x mt-20"></i></div>
+          <div class="product-info">
+            <h5 class="font-bold">1. Acquisition</h5>
+            <p class="text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+          </div>
+        </div>
+        <div class="product-item-1">
+          <div class="product-image"><i class="fa-solid fa-heart fa-4x mt-20"></i></div>
+          <div class="product-info">
+            <h5 class="font-bold">2. Activation</h5>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="product-item-1">
+          <div class="product-image"><i class="fa-solid fa-chart-simple fa-4x mt-20"></i></div>
+          <div class="product-info">
+            <h5 class="font-bold">3. Retention</h5>
+            <p class="text-muted">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <p class="mb-20"></p>
+      </div>
+    </div>
+    <style>
+      @media screen and (min-width: 769px) {
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+          gap: 20px;
+          align-items: center;
+
+        }
+
+        .centered-content {
+          width: 50%;
+          text-align: center;
+          margin: auto;
+        }
+      }
+    </style>
+    <div class="card-grid-style-6 mb-0 section-contact-background-color">
+      <div class="container">
+        <div class="banner-contact">
+          <div class="text-muted font-lg mt-20 mb-50 section-contact-block-width">
+            <p class="mb-10">CONTACT US</p>
+            <h4 class="mb-25">Have a project in mind?</h4>
+            <p class="font-md">The right move at the right time saves your investment. Live the dream of expanding your business.</p>
+          </div>
+          <div class="section-contact-grid">
+            <div class="mr-25 mb-25">
+              <p class="font-bold text-md mt-50 mb-25">Corporation</p>
+              <p class="mb-20">4517 Washington Ave. Manchester, Kentucky 39495</p><a href="tel:2395550108">(239) 555-0108</a><br><a class="mb-25" href="mailto:contact@company.com">contact@company.com</a>
+            </div>
+            <form class="form-group ml-25" id="contactForm"><input type="text" name="Name" placeholder="Name"><br><br><input type="email" name="Email" placeholder="Email"><br><br><input class="ptb-80 mb-25" type="text" name="Message" placeholder="Message">
+              <div class="section-contact-submit-block"><button class="btn btn-default hover-up icon-arrow-right" type="submit">Send Message</button>
+                <p class="section-contact-text text-muted font-sm">By clicking the "Send Message" button, you agree to our terms and policy. </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .section-contact-background-color {
+        background-color: #f2f4f7;
+      }
+
+      .section-contact-submit-block {
+        align-items: center;
+        justify-content: center;
+      }
+
+      .section-contact-submit-block p {
+        margin-right: auto;
+        margin-left: 20px
+      }
+
+      @media screen and (min-width: 769px) {
+        .section-contact-block-width {
+          displa: inline;
+          width: 30%;
+        }
+
+        .section-contact-grid {
+          display: grid;
+          grid-template-columns: 25% 75%;
+        }
+
+        .section-contact-submit-block {
+
+          align-items: center;
+          justify-content: center;
+        }
+
+      }
+    </style>
+    <div class="mobile-header-active mobile-header-wrapper-style perfect-scrollbar">
+      <div class="mobile-header-wrapper-inner">
+        <div class="mobile-header-content-area">
+          <div class="perfect-scroll">
+            <div class="mobile-menu-wrap mobile-header-border">
+              <nav>
+                <ul class="mobile-menu font-heading">
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main"></main>
+    <script src="assets/js/vendors/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/jquery-migrate-3.3.0.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/waypoints.js"></script>
+    <script src="assets/js/vendors/wow.js"></script>
+    <script src="assets/js/vendors/magnific-popup.js"></script>
+    <script src="assets/js/vendors/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/vendors/select2.min.js"></script>
+    <script src="assets/js/vendors/isotope.js"></script>
+    <script src="assets/js/vendors/scrollup.js"></script>
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/slick.js"></script>
+    <script src="assets/js/vendors/jquery.elevatezoom.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/noUISlider.js"></script>
+    <script src="assets/js/vendors/slider.js"></script>
+    <script src="assets/js/main.js?v=1.0"></script>
+    <script src="../../assets/js/formSubmit.js"></script>
+    <script defer src="assets/js/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-313cda.e387463.bundle.js"></script>
+    <script defer src="assets/js/app.9d29038.bundle.js"></script>
+  </body>
+
+</html>
