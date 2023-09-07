@@ -1,0 +1,61 @@
+div.card-grid-style-6.mb-0.section-contact-background-color
+    div.container
+        div.banner-contact
+            div.text-muted.font-lg.mt-20.mb-50.section-contact-block-width
+                p.mb-10 CONTACT US
+                h4.mb-25 Have a project in mind?
+                p.font-md The right move at the right time saves your investment. Live the dream of expanding your business.
+     
+            div.section-contact-grid
+              div.mr-25.mb-25
+                  p.font-bold.text-md.mt-50.mb-25 Corporation
+                  p.mb-20 4517 Washington Ave. Manchester, Kentucky 39495
+                  a(href='tel:2395550108') (239) 555-0108
+                  br
+                  a.mb-25(href='mailto:contact@company.com') contact@company.com
+              
+              form.form-group.ml-25(id='contactForm')
+                      input(type='text', name='Name', placeholder='Name')
+                      br
+                      br
+                      input(type='email', name='Email', placeholder='Email')
+                      br
+                      br 
+                      input(type='text', name='Message', placeholder='Message').ptb-80.mb-25
+                    
+                      div.section-contact-submit-block
+                        button.btn.btn-default.hover-up.icon-arrow-right(type='submit') Send Message
+                        p.section-contact-text.text-muted.font-sm By clicking the "Send Message" button, you agree to our terms and policy.    
+
+
+style.
+      .section-contact-background-color{
+        background-color: #f2f4f7;
+      }
+
+      .section-contact-submit-block{
+        align-items: center;
+        justify-content: center;
+      }
+      .section-contact-submit-block p {
+        margin-right:auto;
+        margin-left:20px
+      }
+      
+    @media screen and (min-width: 769px) {
+        .section-contact-block-width {
+        displa:inline;
+        width:30%;
+        }
+        .section-contact-grid{
+          display:grid;
+          grid-template-columns:25% 75%;
+        }
+        .section-contact-submit-block{
+             
+          align-items: center;
+          justify-content: center;
+        }
+       
+        
+    }

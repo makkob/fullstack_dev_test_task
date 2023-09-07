@@ -1,6 +1,7 @@
 {
   "name": "test_task",
   "version": "4.0",
+  "homepage":"http://makkob.github.io/PUG",
   "description": "test_task",
   "main": "src/app.js",
   "repository": "",
@@ -8,7 +9,8 @@
   "scripts": {
     "build": "rimraf dist && webpack --env mode=development --config ./build/webpack.config.js --progress",
     "dev": "webpack serve --env mode=development --config ./build/webpack.config.js --progress",
-    "prod": "rimraf dist && webpack --env mode=production --config ./build/webpack.config.js --progress"
+    "prod": "rimraf dist && webpack --env mode=production --config ./build/webpack.config.js --progress",
+    "deploy":"gh-pages -d dist"
   },
   "resolutions": {
     "upath": "1.1.1"
@@ -28,7 +30,6 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
-    "node-sass": "^6.0.0",
     "optimize-css-assets-webpack-plugin": "^6.0.0",
     "postcss": "^8.3.0",
     "postcss-cssnext": "^3.1.0",
@@ -52,6 +53,8 @@
     "defaults"
   ],
   "dependencies": {
-    "jquery": "^3.6.0"
+    "gh-pages": "^6.0.0",
+    "jquery": "^3.6.0",
+    "sass": "^1.66.1"
   }
 }

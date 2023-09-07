@@ -1,0 +1,48 @@
+div.container(style color="rgb(242,244,247)")
+    div.centered-content
+        h3.mt-50.mb-25 Built exclusively for you
+        p.text-muted.font-xl.mb-50 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla
+    
+    
+    
+    div.grid-container
+        div.product-item-1
+            div.product-image
+                i.fa-solid.fa-shapes.fa-4x.mt-20
+            div.product-info
+                h5.font-bold 1. Acquisition
+                p.text-muted Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.
+
+        div.product-item-1
+            div.product-image
+                i.fa-solid.fa-heart.fa-4x.mt-20
+               
+            div.product-info
+                h5.font-bold 2. Activation
+                p.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        div.product-item-1
+            div.product-image
+                i.fa-solid.fa-chart-simple.fa-4x.mt-20
+            div.product-info
+                h5.font-bold 3. Retention
+                p.text-muted Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        p.mb-20
+       
+style.
+
+
+    @media screen and (min-width: 769px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 20px; 
+        align-items: center;
+     
+    }
+    .centered-content {
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    }

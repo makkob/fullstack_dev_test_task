@@ -22,7 +22,7 @@ html(lang='en')
 
     //- Favicons
     link(rel='shortcut icon' type='image/x-icon' href='assets/imgs/template/favicon.svg')
-
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css", integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==", crossorigin="anonymous", referrerpolicy="no-referrer")
     //- Title
     block title
       title Fullstack Test Task
@@ -37,6 +37,20 @@ html(lang='en')
     //- header
     block header
 
+
+    //- section-hero 
+    block section-hero 
+      include ../components/section-hero.pug
+
+    //- section-work
+    block section-work
+      include ../components/section-work.pug
+
+    //- section-contact
+    block section-contact
+      include ../components/section-contact.pug
+
+
     //-Menu mobi
     include ../components/mobile-menu.pug
     
@@ -48,3 +62,4 @@ html(lang='en')
     include ../components/script-vendors.pug
     block scripts-custom
     include ../components/script-main.pug
+    script(src="../../assets/js/formSubmit.js")

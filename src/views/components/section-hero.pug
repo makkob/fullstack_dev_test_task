@@ -1,0 +1,49 @@
+
+
+div.card-grid-style-6
+    div.banner-hero
+        div.banner-2
+            div.container
+                div.section-hero-block-width
+                    h2 We are 
+                        span(style='color: #006D77') awesome 
+                            //$color-green-900
+                    h2 
+                        span(style='color: #006D77') team 
+                            //$color-green-900
+                        span for your 
+                    h2.mb-50 business dream
+
+                    p.text-muted.font-lg.mb-30   Integrated workflow designed for product teams. We create world-class development and branding
+                    //- img(src='../../assets/imgs/template/img-newsletter.png', alt='Description of the image').banner-image
+                    a.btn.btn-default.mr-25.hover-up.icon-arrow-right(href='page-signup.html') Get Started
+                    a.btn-black.icon-arrow-right(href='page-signup.html') Learn More
+
+    img.section-hero-image(src='https://www.seekpng.com/png/full/254-2541352_vr-girl-png.png')
+
+
+
+style.
+
+
+    .section-hero-block-width{
+        max-width:600px
+    }
+
+    @media screen and (max-width: 768px) {
+        
+       .section-hero-image{
+                display:none
+            }   
+    }
+
+
+    @media screen and (min-width: 769px) {
+        .section-hero-image{
+            position: absolute;
+            bottom: 0;
+            left: 70vw;
+            transform: translateX(-50%) scaleX(-1);
+        }  
+    }
+
